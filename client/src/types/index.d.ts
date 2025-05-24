@@ -23,3 +23,7 @@ declare interface TotalBalanceBoxProps {
   totalBanks: number;
   totalCurrentBalance: number;
 }
+
+declare interface DoughnutChartProps {
+  accounts: Account[];
+}
