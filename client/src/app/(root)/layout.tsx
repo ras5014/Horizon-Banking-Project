@@ -7,11 +7,13 @@ export default function RootLayout({
 }>) {
   const loggedIn = { firstName: 'Ram', lastName: 'Kumar' };
   return (
-    <main>
+    <main className="flex min-h-screen">
       <Sidebar
         user={loggedIn}
       />
-      {children}
+      <div className="flex-grow">
+        {children}
+      </div>
     </main>
   );
 }
