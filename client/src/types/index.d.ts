@@ -44,6 +44,6 @@ declare interface DoughnutChartProps {
   accounts: Account[];
 }
 
-declare interface SiderbarProps {
+declare interface SidebarProps {
   user: User;
 }
